@@ -1,0 +1,65 @@
+body{
+ margin-left:400px;
+    width:750px;
+  
+}
+.sub_conatainer {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 10px;
+}
+.name1 {
+  width: 19%;
+  margin: 10px;
+  height: 25px;
+}
+.name2 {
+  margin-left: 0px;
+  height: 25px;
+  width: 19%;
+  padding-left:0px;
+}
+.required::after {
+  content: "*";
+  color: red;
+}
+.fa {
+  font-size: 25px;
+  color: orange;
+}
+td {
+  text-align: center;
+}
+.scope-row {
+  float: left;
+ 
+}
+.scope-row>td {
+ margin-left:0px;
+ padding:20px;
+}
+.btn1 {
+ width: 77px;
+  background-color:lightgray;
+  border-radius:5px;
+}
+.btn1:hover{
+  background-color:gray;
+}
+
+.col-12 {
+  width: 100%;
+}
+.mystyle1 {
+  margin-top: 0px;
+  margin-left: 70px;
+  padding-right: 90px;
+}
+.mystyle2 {
+  margin-top: 0px;
+  margin-left: 40px;
+  padding-left: 0px;
+}
+.textarea{
+    width:100%
+}

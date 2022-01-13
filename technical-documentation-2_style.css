@@ -1,0 +1,39 @@
+.own::before{    
+    content:"+";
+    size:10px;
+  }
+a{
+    float:left;
+    background-color:gray;
+}
+
+.side-right{
+    font-size: 20px;
+  margin-left:20px;
+  padding-left:20px;
+    
+}
+.myownstyle{
+    width:350px;
+    padding:10px;
+    font-size:20px;  
+}
+
+.own{
+  background-color:lightgray;
+
+}
+.own1{
+padding-top:8px;
+
+}
+ul.list{
+  list-style-type:square;
+}
+li {
+  display: list-item;
+}
+.listDiv{
+  margin-left:50px;
+  list-style-position: inside;
+}

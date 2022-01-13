@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form</title>
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="Survey-Form_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub_conatainer">
+        <div class="form-group">
+          <label for="name" class="font-weight-bold required">Name</label>
+          <input
+            type="text"
+            class="d-inline name1"
+            id="name"
+            aria-describedby="name"
+          />
+          <input
+            type="text"
+            class="d-inline name2"
+            id="name"
+            aria-describedby="name"
+          />
+          <div class="d-flex flex-row">
+            <small class="form-text text-muted mystyle1" id="name">First</small>
+            <small class="form-text text-muted mystyle2" id="name">Last</small>
+          </div>          
+          <label for="exampleInputEmail1" class="font-weight-bold required"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            style="width: 50%"
+          />
+        </div>
+        <div class="form-group">
+          <span class="font-weight-bold required">Your Experience</span><br />
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <small class="form-text text-muted" id="name"
+            >Overall, how would you rate your experience with us?</small
+          >
+        </div>
+        <div class="form-group">
+          <div class="font-weight-bold required">
+            How satisfied are you with
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <td class="invisible"></td>
+                <td>Very Unsatisfied</td>
+                <td>Unsatisfied</td>
+                <td>Neutral</td>
+                <td>Satisfied</td>
+                <td>Very Satisfied</td>
+              </tr>
+            </thead>
+            <tr>
+              <td class="scope-row">Purchase</td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+            <tr>
+              <td class="scope-row">Service</td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+            <tr>
+              <td class="scope-row">Company Overall</td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="form-group">
+          <div class="font-weight-bold required">How likely are you to</div>
+          <table class="table table-striped table2">
+            <thead>
+              <tr>
+                <td class="invisible"></td>
+                <td>Very Unlikely</td>
+                <td>Unlikely</td>
+                <td>Neutral</td>
+                <td>Likely</td>
+                <td>Very Likely</td>
+              </tr>
+            </thead>
+            <tr>
+              <td class="scope-row">Buy from us again</td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+            <tr>
+              <td class="scope-row" style="line-height:1; text-align:left"><span>Recommend our</span><br /><span>product to others</span></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+            <tr>
+              <td class="scope-row" style="line-height:1; text-align:left"><span>Recommend our</span><br /><span>company to others</span></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+              <td><input type="radio" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-25">
+          <label for="subject" class="font-weight-bold required"
+            >Additional comments or suggestions</label
+          >
+        </div>
+        <div >
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 100px" class="textarea"
+          ></textarea>
+        </div>
+        <div class="btn1">
+          <button class="btn" type="submit" value="submit" name="submit">Submit</button>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
